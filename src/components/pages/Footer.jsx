@@ -31,11 +31,18 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Copyright */}
-      <p className="text-sm">
-        © 2025 High or Die. For Those Who Don’t Come Down. 
-        <p>Powered by $HODG.</p>
-      </p>
+      {/* Footer Credit */}
+<div className="flex flex-col items-center space-y-2 mt-6">
+  <img
+    src="/assets/branding/braindead-skull-logo.png"
+    alt="Braindead Studios Logo"
+    className="h-12 w-auto opacity-80 hover:opacity-100 transition-all duration-300"
+  />
+  <p className="text-sm text-gray-400">
+    Built by <a href="https://braindeadstudios.io" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Braindead Studios</a>
+  </p>
+</div>
+
     </footer>
   )
 }
